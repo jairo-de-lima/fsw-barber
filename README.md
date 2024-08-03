@@ -1,6 +1,6 @@
 aula \zero
 - [x]Setup  do banco de dados
-- [] seeding do banco
+- [x] seeding do banco
 - [] introducao ao next.js
 - [] tailwind e shadcn
 - [] git hooks
