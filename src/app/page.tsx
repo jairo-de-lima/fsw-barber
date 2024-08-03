@@ -1,15 +1,7 @@
-"use client";
-import { useState } from "react";
-import { Button } from "./_components/ui/button";
-
- // cod para usar server components como parte de client
-
-// server components = componente acessados pelo lado do servidor(nao da para adicionar interatividade)
+import { Button } from "./_components/ui/button"
 
 const Home = () => {
-  const [] = useState();
+  return <Button>Test</Button>
+}
 
-  return <Button>test</Button>
-};
-
-export default Home;
+export default Home
