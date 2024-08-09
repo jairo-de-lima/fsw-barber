@@ -3,7 +3,7 @@ aula \zero
 - [x] seeding do banco
 - [x] introducao ao next.js
 - [x] tailwind e shadcn
-- [] git hooks
+- [x] git hooks
 
 
 
