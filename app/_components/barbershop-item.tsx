@@ -22,7 +22,6 @@ const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
             className="rounded-2xl object-cover"
             src={barbershop.imageUrl}
           />
-          .
           <Badge
             className="absolute left-2 top-2 space-x-1"
             variant="secondary"
@@ -36,7 +35,7 @@ const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
           <h3 className="truncate font-semibold">{barbershop.name}</h3>
           <p className="truncate text-sm text-gray-400">{barbershop.address}</p>
           <Button variant="secondary" className="mt-3 w-full" asChild>
-            <Link href={`/barbershops/${barbershop.id}`}>Reservar</Link>
+            <Link href={`/barbershops/${barbershop.id}`}>reservar</Link>
           </Button>
         </div>
       </CardContent>
