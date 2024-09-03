@@ -18,11 +18,11 @@ export const quickSearchOptions: QuickSearchOption[] = [
   },
   {
     imageUrl: "/hidratacao.svg",
-    title: "Hidratacao",
+    title: "Hidratação",
   },
   {
     imageUrl: "/sombrancelhas.svg",
-    title: "Sombrancelhas",
+    title: "Sobrancelha",
   },
   {
     imageUrl: "/massagem.svg",
