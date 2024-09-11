@@ -4,33 +4,33 @@
 
 @layer base {
   .dark {
-    --background: 225 9% 9%;
-    --foreground: 210 40% 98%;
+    --background: 210 15% 20%; /* Fundo mais escuro, tom de cinza carvão */
+    --foreground: 210 40% 90%; /* Cor do texto em um tom mais claro */
 
-    --card: 228 9% 11%;
-    --card-foreground: 210 40% 98%;
+    --card: 210 20% 25%; /* Cartão em um tom escuro de cinza */
+    --card-foreground: 210 40% 90%; /* Texto dentro do cartão em um tom claro */
 
-    --popover: 228 9% 11%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 210 20% 25%; /* Popover em um tom escuro de cinza */
+    --popover-foreground: 210 40% 90%; /* Texto dentro do popover em um tom claro */
 
-    --primary: 252 100% 69%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 40 25% 50%; /* Cor primária em um tom de marrom/terra */
+    --primary-foreground: 210 40% 90%; /* Texto em cor primária em um tom claro */
 
-    --secondary: 228 6% 16%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 30 20% 40%; /* Cor secundária em um tom escuro de verde musgo */
+    --secondary-foreground: 210 40% 90%; /* Texto em cor secundária em um tom claro */
 
-    --muted: 228 6% 16%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 30 15% 50%; /* Cor para elementos menos destacados, tom de cinza escuro */
+    --muted-foreground: 210 40% 80%; /* Texto para elementos menos destacados em um tom mais claro */
 
-    --accent: 228 6% 16%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 40 25% 60%; /* Cor de destaque, um tom mais quente de marrom */
+    --accent-foreground: 210 40% 90%; /* Texto em cor de destaque em um tom claro */
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 50% 40%; /* Cor para ações destrutivas em um tom terroso profundo */
+    --destructive-foreground: 210 40% 90%; /* Texto em ações destrutivas em um tom claro */
 
-    --border: 228 6% 16%;
-    --input: 228 6% 16%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 210 15% 30%; /* Cor da borda, um tom de cinza escuro */
+    --input: 210 15% 30%; /* Cor de fundo do input em um tom escuro de cinza */
+    --ring: 210 30% 70%; /* Cor do anel de foco em um tom mais claro de cinza */
 
     --radius: 0.5rem;
   }

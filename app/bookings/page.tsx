@@ -1,15 +1,24 @@
 import BookingItem from "../_components/booking-item"
 import Header from "@/_components/header"
-// import SignInDialog from "@/_components/sign-in-dialog"
+import SignInDialog from "@/_components/sign-in-dialog"
+import { Dialog } from "@/_components/ui/dialog"
 import { authOptions } from "@/_lib/auth"
 import { db } from "@/_lib/prisma"
 import { getServerSession } from "next-auth"
-import { notFound } from "next/navigation"
 
 const Bookings = async () => {
   const session = await getServerSession(authOptions)
   if (!session?.user) {
-    return notFound()
+    return (
+      <>
+        <Header />
+        <div className="flex flex-col items-center justify-center gap-5 py-5">
+          <Dialog>
+            <SignInDialog />
+          </Dialog>
+        </div>
+      </>
+    )
   }
   const confirmedBookings = await db.booking.findMany({
     where: {
